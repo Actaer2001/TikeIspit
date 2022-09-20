@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0; 
+    border: none;
+    margin-bottom: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: flex-start;
+}
+
+.checks {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 10px;  
+}
+
+.slika {
+    width: 100px;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.slika:hover {
+    cursor: pointer;
+}
+
+#prikaz {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
